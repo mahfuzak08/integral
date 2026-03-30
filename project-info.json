@@ -1,0 +1,85 @@
+{
+  "name": "integral-solutions-html",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JS version of Integral Solutions website - WordPress ready",
+  "main": "index.html",
+  "files": [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "components.js",
+    "data.js",
+    "ai-chat.js"
+  ],
+  "features": [
+    "Single Page Application (SPA)",
+    "Responsive Design",
+    "Hero Slider",
+    "AI Chatbot",
+    "Contact Form",
+    "5 Pages (Home, About, Services, Products, Contact)",
+    "No Build Process",
+    "WordPress Ready"
+  ],
+  "technologies": {
+    "html": "HTML5",
+    "css": "CSS3 + Tailwind CSS (CDN)",
+    "javascript": "ES6+ (Vanilla JS)",
+    "fonts": "Google Fonts (Inter, Montserrat)",
+    "icons": "Inline SVG",
+    "ai": "Google Gemini AI (optional)"
+  },
+  "browser_support": {
+    "chrome": "latest 2 versions",
+    "firefox": "latest 2 versions",
+    "safari": "latest 2 versions",
+    "edge": "latest 2 versions",
+    "mobile": "iOS Safari, Chrome Android"
+  },
+  "setup": {
+    "quick_start": "Open index.html in browser",
+    "local_server": "python -m http.server 8000",
+    "customization": "Edit data.js for company info",
+    "ai_chatbot": "Add Gemini API key to ai-chat.js (optional)"
+  },
+  "wordpress_conversion": {
+    "guide": "See README.md",
+    "difficulty": "Easy",
+    "estimated_time": "2-4 hours",
+    "required_files": [
+      "style.css",
+      "functions.php",
+      "header.php",
+      "footer.php",
+      "index.php",
+      "page.php"
+    ]
+  },
+  "company": {
+    "name": "Integral Solutions",
+    "industry": "Engineering & Contracting",
+    "location": "Dhaka, Bangladesh",
+    "website": "integralsolutions.com.bd",
+    "phone": ["+880 1796 589534", "+880 1979 99 6767"],
+    "email": "info@integralsolutions.com.bd"
+  },
+  "documentation": {
+    "quick_start": "QUICK-START.md",
+    "full_docs": "README.md",
+    "summary": "CONVERSION-SUMMARY.md"
+  },
+  "author": {
+    "converted_by": "AI Assistant",
+    "conversion_date": "2026-02-07",
+    "original_format": "React/TypeScript with Vite"
+  },
+  "notes": [
+    "No npm dependencies required",
+    "No build process needed",
+    "All assets loaded via CDN",
+    "Easily customizable",
+    "SEO friendly structure",
+    "Mobile-first responsive design",
+    "Ready for WordPress theme conversion"
+  ]
+}
