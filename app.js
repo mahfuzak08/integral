@@ -242,7 +242,7 @@ function handleContactSubmit(e) {
     console.log('Form submitted:', formData);
     
     // Show success message
-    alert('Thank you for your inquiry! We will get back to you soon.');
+    // alert('Thank you for your inquiry! We will get back to you soon.');
     
     // Reset form
     e.target.reset();
