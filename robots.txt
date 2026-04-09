@@ -1,0 +1,27 @@
+# robots.txt for Integral Solutions
+# https://integralsolutionsbd.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /upload/
+Disallow: /.well-known/
+Disallow: /.git/
+Disallow: /test_*.php
+
+# Allow specific file types
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Sitemap location
+Sitemap: https://integralsolutionsbd.com/sitemap.xml
+
+# Crawl-delay (optional, adjust if needed)
+Crawl-delay: 1

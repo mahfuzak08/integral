@@ -4,13 +4,130 @@ if($page === '') {
     $page = 'index.php'; // Default to index.php if no specific page is provided
 }
 $nav_bg = $page === 'index.php' ? 'bg-transparent' : 'bg-slate-900 shadow-lg'; 
+
+// SEO Meta Data Configuration
+$seo_data = [
+    'index.php' => [
+        'title' => 'Integral Solutions | Engineering Excellence in Bangladesh',
+        'description' => 'Leading multidisciplinary engineering and contracting company in Bangladesh. Providing turnkey solutions for electrical, mechanical, civil systems, CCTV surveillance, IT solutions, and power plant materials.',
+        'keywords' => 'engineering services bangladesh, electrical contractors dhaka, mechanical engineering, civil engineering, CCTV surveillance, IT solutions, power plant materials, generators, pumps, switchgear, energy management',
+        'og_image' => 'https://integralsolutionsbd.com/logo.png'
+    ],
+    'about.php' => [
+        'title' => 'About Us | Integral Solutions - Engineering Excellence',
+        'description' => 'Integral Solutions is a trusted engineering and contracting company based in Dhaka, Bangladesh. We deliver high-quality, cost-efficient, and sustainable engineering solutions.',
+        'keywords' => 'about integral solutions, engineering company bangladesh, multidisciplinary engineering, dhaka contractors',
+        'og_image' => 'https://integralsolutionsbd.com/logo.png'
+    ],
+    'services.php' => [
+        'title' => 'Our Services | Engineering, Consultancy & Contracting',
+        'description' => 'Comprehensive engineering services including design, installation, maintenance of electrical, mechanical systems, technical consultancy, EPC projects, and turnkey solutions in Bangladesh.',
+        'keywords' => 'engineering services, consultancy services bangladesh, EPC projects, turnkey solutions, electrical installation, mechanical systems, feasibility studies',
+        'og_image' => 'https://integralsolutionsbd.com/logo.png'
+    ],
+    'products.php' => [
+        'title' => 'Products | Electrical, Mechanical & IT Equipment Supply',
+        'description' => 'Import and supply of high-quality products: CCTV surveillance, IT solutions, generators, pumps, switchgear, frequency inverters, low/medium voltage items, and power plant materials.',
+        'keywords' => 'CCTV surveillance bangladesh, IT solutions, generators, water pumps, switchgear, frequency inverter, low voltage items, medium voltage, power plant materials',
+        'og_image' => 'https://integralsolutionsbd.com/logo.png'
+    ],
+    'contact.php' => [
+        'title' => 'Contact Us | Integral Solutions Bangladesh',
+        'description' => 'Get in touch with Integral Solutions. Located at West Rampura, Dhaka. Call +880 1796 589534 or email info@integralsolutionsbd.com for engineering services and consultancy.',
+        'keywords' => 'contact integral solutions, engineering company dhaka, west rampura dhaka, bangladesh engineering services contact',
+        'og_image' => 'https://integralsolutionsbd.com/logo.png'
+    ]
+];
+
+$current_seo = $seo_data[$page] ?? $seo_data['index.php'];
+$canonical_url = 'https://integralsolutionsbd.com/' . ($page === 'index.php' ? '' : $page);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integral Solutions | Engineering Excellence</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title><?= $current_seo['title']; ?></title>
+    <meta name="title" content="<?= $current_seo['title']; ?>">
+    <meta name="description" content="<?= $current_seo['description']; ?>">
+    <meta name="keywords" content="<?= $current_seo['keywords']; ?>">
+    <meta name="author" content="Integral Solutions">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="<?= $canonical_url; ?>">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?= $canonical_url; ?>">
+    <meta property="og:title" content="<?= $current_seo['title']; ?>">
+    <meta property="og:description" content="<?= $current_seo['description']; ?>">
+    <meta property="og:image" content="<?= $current_seo['og_image']; ?>">
+    <meta property="og:site_name" content="Integral Solutions">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="<?= $canonical_url; ?>">
+    <meta property="twitter:title" content="<?= $current_seo['title']; ?>">
+    <meta property="twitter:description" content="<?= $current_seo['description']; ?>">
+    <meta property="twitter:image" content="<?= $current_seo['og_image']; ?>">
+    
+    <!-- Business Information -->
+    <meta name="geo.region" content="BD-13">
+    <meta name="geo.placename" content="Dhaka">
+    <meta name="geo.position" content="23.7937;90.4066">
+    <meta name="ICBM" content="23.7937, 90.4066">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Integral Solutions",
+        "url": "https://integralsolutionsbd.com",
+        "logo": "https://integralsolutionsbd.com/logo.png",
+        "description": "Leading multidisciplinary engineering and contracting company in Bangladesh",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "374/1, West Rampura",
+            "addressLocality": "Dhaka",
+            "postalCode": "1219",
+            "addressCountry": "BD"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+880-1796-589534",
+            "contactType": "customer service",
+            "areaServed": "BD",
+            "availableLanguage": ["en", "bn"]
+        },
+        "sameAs": [],
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "10:00",
+                "closes": "16:00"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="shortcut icon" href="logo.png">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
