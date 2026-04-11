@@ -154,37 +154,37 @@ $productDetails = [
         'category' => 'Mechanical'
     ],
     'Generator' => [
-        'image' => 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://tiimg.tistatic.com/fp/1/004/617/ship-generators-785.jpg?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Industrial and commercial generators',
         'category' => 'Electrical'
     ],
     'Generator Spare Parts' => [
-        'image' => 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://thumbs.dreamstime.com/b/lots-auto-parts-15210467.jpg?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Genuine generator parts and accessories',
         'category' => 'Electrical'
     ],
     'Generator Servicing' => [
-        'image' => 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://static.vecteezy.com/system/resources/thumbnails/075/720/923/small/technician-industrial-equipment-repair-2023-free-photo.jpg?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Professional generator maintenance services',
         'category' => 'Electrical'
     ],
     'Frequency Inverter' => [
-        'image' => 'https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://www.veikong.com/photo/pl150618342-vfd500_variable_frequency_inverter_with_gprs_function_and_motor_self_learning_features.jpg?s=612x612&w=0&k=20&c=FZf-5aC-gRcrIrHOrgkNu9o-hiC0okUFQqRXKpaSk1M=?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Variable frequency drives and inverters',
         'category' => 'Electrical'
     ],
     'Material Handling Conveyor' => [
-        'image' => 'https://images.unsplash.com/photo-1565373679199-6d0d0e2c9f50?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://dhakayellowpages.com/uploads/category/165253.jpg?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Automated material handling systems',
         'category' => 'Mechanical'
     ],
     'CCTV Surveillance' => [
-        'image' => 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://img.freepik.com/premium-photo/security-camera-urban-video_109643-54.jpg?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Advanced surveillance systems for security monitoring',
         'category' => 'IT/Security'
     ],
     'IT Solutions' => [
-        'image' => 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200', 
+        'image' => 'https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18377.jpg?semt=ais_hybrid&w=740&q=80?auto=format&fit=crop&q=80&w=1200', 
         'desc' => 'Enterprise IT infrastructure and network solutions',
         'category' => 'IT/Security'
     ]
@@ -194,9 +194,10 @@ $company_details = [
     'name' => 'Integral Solutions',
     'address' => '374/1, West Rampura',
     'city' => 'Dhaka-1219, Bangladesh',
-    'phone' => ['+880 1796 589534', '+880 1979 99 6767'],
+    'phone' => ['+880 1796 589534', '+880 1918 060 422'],
     'email' => 'info@integralsolutionsbd.com',
     'query_email' => 'mahfuz@absoft-bd.com',
+    // 'query_email' => 'tariqul@integralsolutionsbd.com',
     'business_hours' => [
         'Saturday' => '10:00 AM - 4:00 PM',
         'Sunday - Thursday' => '9:00 AM - 6:00 PM',

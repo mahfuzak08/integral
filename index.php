@@ -63,7 +63,7 @@ include 'header.php';
             </div>
             
             <!-- Stats Bar -->
-            <div class="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-gray-900/50 to-transparent backdrop-blur-md border-t border-white/10">
+            <!-- <div class="absolute bottom-0 left-0 right-0 z-20 bg-gradient-to-t from-gray-900/50 to-transparent backdrop-blur-md border-t border-white/10">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
                         <div class="text-center">
@@ -84,7 +84,7 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         
         <!-- Modern About Section -->

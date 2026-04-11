@@ -34,7 +34,7 @@ include 'header.php';
                 </h1>
                 
                 <p class="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-fade-in">
-                    Engineering excellence and innovation since 2005 - Your trusted partner for complete turnkey solutions
+                    Engineering excellence and innovation since 2013 - Your trusted partner for complete turnkey solutions
                 </p>
                 
                 <!-- Decorative Line -->
@@ -66,7 +66,7 @@ include 'header.php';
                             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
-                            Since 2005
+                            Since 2013
                         </div>
 
                         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6">
@@ -74,7 +74,7 @@ include 'header.php';
                         </h2>
 
                         <p class="text-gray-600 text-lg leading-relaxed mb-6">
-                            <strong class="text-gray-900">Integral Solutions – Engineering & Contracting</strong> is a First Class Engineering & Contracting firm based in Dhaka, Bangladesh, specializing in the design, supply, installation, testing, and commissioning of electrical, mechanical, plumbing, fire protection, CCTV, IT infrastructure, and control systems.
+                            Integral Solutions is a multidisciplinary engineering and contracting company providing turnkey solutions to public and private sector clients across Bangladesh. With strong capabilities in engineering, technical consultancy, global sourcing and first class contracting, we deliver reliable support from concept to completion.
                         </p>
 
                         <p class="text-gray-600 text-lg leading-relaxed mb-6">
@@ -86,7 +86,7 @@ include 'header.php';
                                 <div class="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                 <div class="absolute -top-4 -right-4 w-24 h-24 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
                                 <div class="relative z-10">
-                                    <div class="text-4xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 group-hover:scale-110 transition-transform duration-500">18+</div>
+                                    <div class="text-4xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 group-hover:scale-110 transition-transform duration-500">10+</div>
                                     <div class="text-blue-100 font-semibold text-xs sm:text-sm uppercase tracking-wider">Years of Excellence</div>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ include 'header.php';
                                 <div class="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                                 <div class="absolute -top-4 -right-4 w-24 h-24 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700"></div>
                                 <div class="relative z-10">
-                                    <div class="text-4xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 group-hover:scale-110 transition-transform duration-500">500+</div>
+                                    <div class="text-4xl sm:text-4xl md:text-5xl font-extrabold text-white mb-2 group-hover:scale-110 transition-transform duration-500">50+</div>
                                     <div class="text-purple-100 font-semibold text-xs sm:text-sm uppercase tracking-wider">Projects Completed</div>
                                 </div>
                             </div>
@@ -104,58 +104,91 @@ include 'header.php';
             </div>
         </section>
 
-        <!-- Core Values Section -->
+        <!-- Vision & Core Values Section -->
         <section class="py-16 sm:py-20 md:py-24 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6">
                 <div class="text-center mb-12 sm:mb-14 md:mb-16">
-                    <h2 class="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-3 md:mb-4">Our Core Values</h2>
+                    <h2 class="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-3 md:mb-4">Our Vision & Core Values</h2>
+                    <p class="text-gray-600 text-sm sm:text-base max-w-3xl mx-auto mb-6 sm:mb-8">
+                        <strong class="text-blue-600">Vision:</strong> To be a trusted partner in engineering-driven progress across Bangladesh.
+                    </p>
                     <p class="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto">The pillars that define every project we undertake and every client relationship we build.</p>
                 </div>
 
-                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-7 md:gap-8">
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-7 md:gap-6">
                     <!-- Integrity Card -->
-                    <div class="group bg-white p-8 sm:p-9 md:p-10 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 text-center relative overflow-hidden">
+                    <div class="group bg-white p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-blue-500 text-center relative overflow-hidden">
                         <div class="absolute inset-0 bg-gradient-to-br from-blue-500 to-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
                         <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
                         
-                        <div class="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-5 md:mb-6 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
                             <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
-                            <svg class="w-10 h-10 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-8 h-8 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl sm:text-xl md:text-2xl font-bold mb-3 sm:mb-3 md:mb-4 group-hover:text-white transition-colors duration-500">Integrity</h3>
-                        <p class="text-gray-600 text-sm sm:text-base group-hover:text-white/90 leading-relaxed transition-colors duration-500">Operating with transparency and honesty in all our turnkey solutions.</p>
-                    </div>
-
-                    <!-- Excellence Card -->
-                    <div class="group bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-purple-500 text-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
-                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
-                        
-                        <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
-                            <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
-                            <svg class="w-10 h-10 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold mb-4 group-hover:text-white transition-colors duration-500">Excellence</h3>
-                        <p class="text-gray-600 group-hover:text-white/90 leading-relaxed transition-colors duration-500">Striving for the highest quality in engineering and supply standards.</p>
+                        <h3 class="text-lg sm:text-xl md:text-xl font-bold mb-2 sm:mb-3 group-hover:text-white transition-colors duration-500">Integrity</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm group-hover:text-white/90 leading-relaxed transition-colors duration-500">Transparency and honesty in all our dealings</p>
                     </div>
 
                     <!-- Innovation Card -->
-                    <div class="group bg-white p-10 rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-emerald-500 text-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-500 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
-                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
+                    <div class="group bg-white p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-purple-500 text-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
                         
-                        <div class="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
                             <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
-                            <svg class="w-10 h-10 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-8 h-8 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold mb-4 group-hover:text-white transition-colors duration-500">Innovation</h3>
-                        <p class="text-gray-600 group-hover:text-white/90 leading-relaxed transition-colors duration-500">Implementing cutting-edge IT and energy management systems.</p>
+                        <h3 class="text-lg sm:text-xl md:text-xl font-bold mb-2 sm:mb-3 group-hover:text-white transition-colors duration-500">Innovation</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm group-hover:text-white/90 leading-relaxed transition-colors duration-500">Cutting-edge solutions for modern challenges</p>
+                    </div>
+
+                    <!-- Quality Card -->
+                    <div class="group bg-white p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-emerald-500 text-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-emerald-500 to-teal-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
+                        
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
+                            <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
+                            <svg class="w-8 h-8 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg sm:text-xl md:text-xl font-bold mb-2 sm:mb-3 group-hover:text-white transition-colors duration-500">Quality</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm group-hover:text-white/90 leading-relaxed transition-colors duration-500">Excellence in every aspect of service delivery</p>
+                    </div>
+
+                    <!-- Safety Card -->
+                    <div class="group bg-white p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-orange-500 text-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-orange-500 to-red-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-orange-500 to-red-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
+                        
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
+                            <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
+                            <svg class="w-8 h-8 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg sm:text-xl md:text-xl font-bold mb-2 sm:mb-3 group-hover:text-white transition-colors duration-500">Safety</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm group-hover:text-white/90 leading-relaxed transition-colors duration-500">Prioritizing safety at every step of execution</p>
+                    </div>
+
+                    <!-- Service Excellence Card -->
+                    <div class="group bg-white p-6 sm:p-7 md:p-8 rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-cyan-500 text-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-500 to-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10"></div>
+                        <div class="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full opacity-10 group-hover:scale-150 group-hover:opacity-20 transition-all duration-700"></div>
+                        
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 md:mb-5 text-white shadow-lg group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 relative">
+                            <div class="absolute inset-0 bg-white/20 rounded-2xl animate-pulse"></div>
+                            <svg class="w-8 h-8 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg sm:text-xl md:text-xl font-bold mb-2 sm:mb-3 group-hover:text-white transition-colors duration-500">Service Excellence</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm group-hover:text-white/90 leading-relaxed transition-colors duration-500">Exceptional client service and support</p>
                     </div>
                 </div>
             </div>
@@ -175,7 +208,7 @@ include 'header.php';
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
-                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Turnkey execution from concept to commissioning</span>
+                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Proven technical expertise across multiple industries</span>
                             </div>
                             
                             <div class="group flex items-center p-5 bg-white rounded-2xl shadow-md border-2 border-gray-100 hover:border-transparent hover:shadow-xl transition-all duration-300 hover:translate-x-2 relative overflow-hidden">
@@ -185,7 +218,7 @@ include 'header.php';
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
-                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">First Class Contracting license grade</span>
+                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Reliable international supply chain and sourcing partners</span>
                             </div>
                             
                             <div class="group flex items-center p-5 bg-white rounded-2xl shadow-md border-2 border-gray-100 hover:border-transparent hover:shadow-xl transition-all duration-300 hover:translate-x-2 relative overflow-hidden">
@@ -195,7 +228,7 @@ include 'header.php';
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
-                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Multidisciplinary team of mechanical & electrical engineers</span>
+                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Skilled project management and execution teams</span>
                             </div>
                             
                             <div class="group flex items-center p-5 bg-white rounded-2xl shadow-md border-2 border-gray-100 hover:border-transparent hover:shadow-xl transition-all duration-300 hover:translate-x-2 relative overflow-hidden">
@@ -205,7 +238,7 @@ include 'header.php';
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
-                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Deep network of global equipment manufacturers</span>
+                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Quality-driven service with safety at every step</span>
                             </div>
                             
                             <div class="group flex items-center p-5 bg-white rounded-2xl shadow-md border-2 border-gray-100 hover:border-transparent hover:shadow-xl transition-all duration-300 hover:translate-x-2 relative overflow-hidden">
@@ -215,7 +248,7 @@ include 'header.php';
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                                     </svg>
                                 </div>
-                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Reliable long-term maintenance & support services</span>
+                                <span class="font-bold text-gray-800 group-hover:text-gray-900 transition-colors relative z-10">Commitment to client satisfaction and long-term relationships</span>
                             </div>
                         </div>
                     </div>
