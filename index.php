@@ -46,13 +46,13 @@ include 'header.php';
                     
                     <!-- CTA Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 sm:gap-5 animate-slide-up animation-delay-600">
-                        <button onclick="navigateTo('services')" class="group px-6 sm:px-8 lg:px-10 py-4 sm:py-5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold text-base sm:text-lg flex items-center justify-center transition-all duration-300 shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
+                        <button onclick="window.location.href='services.php'" class="group px-6 sm:px-8 lg:px-10 py-4 sm:py-5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold text-base sm:text-lg flex items-center justify-center transition-all duration-300 shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
                             Explore Services
                             <svg class="ml-2 sm:ml-3 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
                             </svg>
                         </button>
-                        <button onclick="navigateTo('contact')" class="group px-6 sm:px-8 lg:px-10 py-4 sm:py-5 bg-white/5 hover:bg-white/10 text-white backdrop-blur-xl border-2 border-white/20 hover:border-orange-500/50 rounded-2xl font-bold text-base sm:text-lg flex items-center justify-center transition-all duration-300 hover:-translate-y-1">
+                        <button onclick="window.location.href='contact.php'" class="group px-6 sm:px-8 lg:px-10 py-4 sm:py-5 bg-white/5 hover:bg-white/10 text-white backdrop-blur-xl border-2 border-white/20 hover:border-orange-500/50 rounded-2xl font-bold text-base sm:text-lg flex items-center justify-center transition-all duration-300 hover:-translate-y-1">
                             <svg class="mr-2 sm:mr-3 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
                             </svg>
@@ -159,7 +159,7 @@ include 'header.php';
                                 </div>
                             </div>
                             
-                            <button onclick="navigateTo('about')" class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold transition-all duration-300 shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
+                            <button onclick="window.location.href='about.php'" class="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold transition-all duration-300 shadow-lg shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
                                 Read More About Us
                                 <svg class="ml-2 w-5 h-5 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
@@ -246,7 +246,7 @@ include 'header.php';
                                 </ul>
                                 
                                 <?php if ($snippet) { ?>
-                                    <button onclick="navigateTo('services')" class="mt-6 text-orange-500 font-bold text-sm flex items-center group-hover:text-orange-400 transition-colors">
+                                    <button onclick="window.location.href='services.php'" class="mt-6 text-orange-500 font-bold text-sm flex items-center group-hover:text-orange-400 transition-colors">
                                         Learn More
                                         <svg class="ml-2 w-4 h-4 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
@@ -381,7 +381,7 @@ include 'header.php';
 
                 <?php if ($snippet) { ?>
                     <div class="text-center mt-12 sm:mt-16">
-                        <button onclick="navigateTo('products')" class="inline-flex items-center px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
+                        <button onclick="window.location.href='products.php'" class="inline-flex items-center px-8 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 hover:-translate-y-1">
                             View All Products
                             <svg class="ml-2 sm:ml-3 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
