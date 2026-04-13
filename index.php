@@ -15,7 +15,7 @@ include 'header.php';
             </video>
             
             <!-- Modern Gradient Overlay -->
-            <div class="absolute inset-0 bg-gradient-to-br from-gray-900/95 via-gray-900/85 to-gray-900/70"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900/75 via-gray-900/65 to-gray-900/50"></div>
             
             <!-- Animated Geometric Shapes -->
             <div class="absolute inset-0 overflow-hidden opacity-10">
