@@ -226,7 +226,7 @@ $company_context = "
     Contact Information:
     - Address: 374/1, West Rampura, Dhaka-1219, Bangladesh
     - Phone: +880 1796 589534, +880 1979 99 6767
-    - Email: info@integralsolutions.com.bd
+    - Email: info@integralsolutionsbd.com
 
     Business Hours:
     - Sunday - Thursday: 9:00 AM - 6:00 PM

@@ -78,7 +78,7 @@ include 'header.php';
                         </p>
 
                         <p class="text-gray-600 text-lg leading-relaxed mb-6">
-                            We serve a diverse range of sectors including <strong>commercial buildings, industrial facilities, hospitals, data centers, and residential complexes</strong>. Our technical expertise spans complete turnkey execution from conceptual design through to final handover and ongoing maintenance support.
+                            Our specialized services include <strong>electrical and mechanical systems, power distribution and energy management, industrial automation, material handling solutions, and generator systems</strong>. Our technical expertise spans complete turnkey EPC execution from conceptual design through to final handover and ongoing maintenance support.
                         </p>
 
                         <div class="grid sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6 mt-6 sm:mt-8 md:mt-10">
