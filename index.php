@@ -531,7 +531,9 @@ include 'header.php';
                                     </div>
                                     <div>
                                         <h4 class="font-bold text-white mb-2 text-lg">Email</h4>
+                                        <p class="text-gray-400"><a href="mailto:<?php echo $company_details['query_email']; ?>" class="hover:text-orange-500 transition-colors"><?php echo $company_details['query_email']; ?></a></p>
                                         <p class="text-gray-400"><a href="mailto:<?php echo $company_details['email']; ?>" class="hover:text-orange-500 transition-colors"><?php echo $company_details['email']; ?></a></p>
+                                        <p class="text-gray-400"><a href="mailto:<?php echo $company_details['gmail']; ?>" class="hover:text-orange-500 transition-colors"><?php echo $company_details['gmail']; ?></a></p>
                                     </div>
                                 </div>
                             </div>

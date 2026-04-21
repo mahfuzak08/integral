@@ -197,6 +197,7 @@ $company_details = [
     'phone' => ['+880 1796 589534', '+880 1918 060 422'],
     'email' => 'info@integralsolutionsbd.com',
     'query_email' => 'tariqul@integralsolutionsbd.com',
+    'gmail' => 'integral.solutionsbd@gmail.com',
     'business_hours' => [
         'Saturday' => '10:00 AM - 4:00 PM',
         'Sunday - Thursday' => '9:00 AM - 6:00 PM',
