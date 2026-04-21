@@ -192,12 +192,11 @@ $productDetails = [
 
 $company_details = [
     'name' => 'Integral Solutions',
-    'address' => '374/1, West Rampura',
+    'address' => '374/1, West Rampura (Ground Floor)',
     'city' => 'Dhaka-1219, Bangladesh',
     'phone' => ['+880 1796 589534', '+880 1918 060 422'],
     'email' => 'info@integralsolutionsbd.com',
-    'query_email' => 'mahfuz@absoft-bd.com',
-    // 'query_email' => 'tariqul@integralsolutionsbd.com',
+    'query_email' => 'tariqul@integralsolutionsbd.com',
     'business_hours' => [
         'Saturday' => '10:00 AM - 4:00 PM',
         'Sunday - Thursday' => '9:00 AM - 6:00 PM',
@@ -224,7 +223,7 @@ $company_context = "
     Vision: To be the most trusted name in multidisciplinary engineering across Bangladesh.
 
     Contact Information:
-    - Address: 374/1, West Rampura, Dhaka-1219, Bangladesh
+    - Address: 374/1, West Rampura (Ground Floor), Dhaka-1219, Bangladesh
     - Phone: +880 1796 589534, +880 1979 99 6767
     - Email: info@integralsolutionsbd.com
 
