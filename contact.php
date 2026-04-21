@@ -97,10 +97,10 @@ include 'header.php';
                             </svg>
                         </div>
                         <h3 class="relative text-lg sm:text-lg md:text-xl font-bold mb-3 sm:mb-3 md:mb-4 text-gray-900 group-hover:text-white transition-colors duration-500">Online</h3>
-                        <p class="relative text-gray-600 text-xs sm:text-sm mb-2 group-hover:text-white/90 transition-colors duration-500"><?= $company_details['query_email']; ?></p>
-                        <p class="relative text-gray-600 text-xs sm:text-sm mb-2 group-hover:text-white/90 transition-colors duration-500"><?= $company_details['email']; ?></p>
-                        <p class="relative text-gray-600 text-xs sm:text-sm mb-2 group-hover:text-white/90 transition-colors duration-500"><?= $company_details['gmail']; ?></p>
-                        <p class="relative text-gray-600 text-xs sm:text-sm group-hover:text-white/90 transition-colors duration-500"><?= $company_details['website']; ?></p>
+                        <p class="relative text-gray-600 text-xs sm:text-sm mb-2 group-hover:text-white/90 transition-colors duration-500"><?= $company_details['query_email']; ?><br>
+                        <?= $company_details['email']; ?><br>
+                        <?= $company_details['gmail']; ?><br>
+                        <?= $company_details['website']; ?></p>
                     </div>
                 </div>
 
