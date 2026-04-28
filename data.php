@@ -196,6 +196,7 @@ $company_details = [
     'city' => 'Dhaka-1219, Bangladesh',
     'phone' => ['+880 1796 589534', '+880 1918 060 422'],
     'email' => 'info@integralsolutionsbd.com',
+    'website' => 'https://www.integralsolutionsbd.com',
     'query_email' => 'tariqul@integralsolutionsbd.com',
     'gmail' => 'integral.solutionsbd@gmail.com',
     'business_hours' => [
